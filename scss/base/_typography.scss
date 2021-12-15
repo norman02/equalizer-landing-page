@@ -1,0 +1,42 @@
+// Typography
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+
+// convert pixels to rems
+@function rem($pix) {
+    @return ($pix/16) + rem;
+}
+
+body {
+    color: $primary-txt-color;
+    font-family: 'IBM Plex Sans', sans-serif;  
+}
+
+h1,
+h2 {
+    font-weight: 700;
+}
+
+h1 {
+    font-size: rem(40);
+    
+    letter-spacing: rem(-0.45);
+    line-height: rem(48);
+}
+
+h2 {
+    color: $secondary-txt-color;
+    font-size: rem(32);
+    line-height: rem(40);
+}
+
+p {
+    font-size: rem(16);
+    line-height: rem(26);
+}
+
+.main-para {
+    color: $secondary-txt-color;
+    font-size: rem(18);
+    line-height: rem(28);
+}
+
