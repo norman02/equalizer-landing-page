@@ -1,0 +1,9 @@
+// convert pixels to rems
+@function rem($pix) {
+    @return ($pix/16) + rem;
+}
+
+// convert pixel to view width ratio
+@function sml-vw($pix) {
+    @return ($pix/375 * 100) + vw;
+}
