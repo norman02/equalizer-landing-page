@@ -1,0 +1,26 @@
+main {
+
+    margin-top: rem(74);
+
+    .app-graphic {
+        background-image: url('../assets/illustration-app.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin: auto;
+        height: sml-vw(430);
+        width: sml-vw(209);
+    }
+
+    .app-background {
+        background-color: $app-bg-color;
+        background-image: url('../assets/bg-pattern-2.svg');
+        background-position: center top;
+        background-repeat: no-repeat;
+        border-radius: 12px;
+        height: sml-vw(600);
+        margin-top: rem(-300);
+        position: relative;
+        width: 100vw;
+        z-index: -5;
+    }
+}
