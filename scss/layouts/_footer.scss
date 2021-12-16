@@ -1,0 +1,22 @@
+footer {
+    @extend %small-margin;
+    margin-top: rem(72);
+    padding-bottom: rem(80);
+
+    .logo {
+        margin-bottom: rem(39);
+    }
+
+    .email {
+        font-weight: 700;
+    }
+
+    ul {
+        margin-top: rem(70);
+
+        li {
+            display: inline;
+            margin-right: rem(20);
+        }
+    }
+}

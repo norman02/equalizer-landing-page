@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap");
+header, footer, main .cta h2, main .cta .main-para, main .cta .price {
+  margin: 0 6.4vw;
+}
+
 * {
   border: 0;
   font-size: 100%;
@@ -94,7 +98,6 @@ body {
 }
 
 header {
-  margin: 0 6.4vw;
   margin-top: 12.8vw;
 }
 
@@ -104,6 +107,28 @@ header h1 {
 
 header p {
   margin-top: 1rem;
+}
+
+footer {
+  margin-top: 4.5rem;
+  padding-bottom: 5rem;
+}
+
+footer .logo {
+  margin-bottom: 2.4375rem;
+}
+
+footer .email {
+  font-weight: 700;
+}
+
+footer ul {
+  margin-top: 4.375rem;
+}
+
+footer ul li {
+  display: inline;
+  margin-right: 1.25rem;
 }
 
 main {
@@ -140,13 +165,8 @@ main .cta {
   padding-bottom: 3rem;
 }
 
-main .cta h2 {
-  margin: 0 6.4vw;
-}
-
 main .cta .main-para {
   margin-top: 0.625rem;
-  margin: 0 6.4vw;
 }
 
 main .cta .price {
