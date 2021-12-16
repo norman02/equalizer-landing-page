@@ -33,15 +33,16 @@ main {
 
 
         h2 {
-            margin: 0 sml-vw(24);
+            @extend %small-margin;
         }
 
         .main-para {
-            margin-top: rem(10);
-            margin: 0 sml-vw(24);
+            @extend %small-margin;
+            margin-top: rem(10);  
         }
 
         .price {
+            @extend %small-margin;
             display: flex;
             color: $secondary-txt-color;
             margin-top: rem(24);

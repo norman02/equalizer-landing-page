@@ -1,6 +1,5 @@
 header {
-
-    margin: 0 sml-vw(24);
+    @extend %small-margin;
     margin-top: sml-vw(48);
   
     h1 {
