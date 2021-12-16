@@ -55,11 +55,47 @@ p {
   line-height: 1.75rem;
 }
 
+.button {
+  border-radius: 12px;
+  display: block;
+  font-weight: 700;
+  height: 3.8125rem;
+  letter-spacing: -0.18px;
+  line-height: 2rem;
+  width: 18.5rem;
+  text-align: center;
+}
+
+.button span {
+  margin-top: 0.5625rem;
+}
+
+.button img {
+  position: relative;
+  margin-right: 0.52625rem;
+  top: 0.625rem;
+}
+
+.ios {
+  background-color: #191826;
+  color: #fcf9f8;
+}
+
+.android {
+  background-color: #fcf9f8;
+  color: #191826;
+}
+
 body {
-  padding: 12.8vw 6.4vw 21.33333vw 6.4vw;
   background-image: url("../assets/bg-main-mobile.png");
+  background-color: #fcf9f8;
   background-position: 10.66667vw -58.66667vw;
   background-repeat: no-repeat;
+}
+
+header {
+  margin: 0 6.4vw;
+  margin-top: 12.8vw;
 }
 
 header h1 {
@@ -68,5 +104,71 @@ header h1 {
 
 header p {
   margin-top: 1rem;
+}
+
+main {
+  margin-top: 4.625rem;
+}
+
+main .app-graphic {
+  background-image: url("../assets/illustration-app.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: auto;
+  height: 114.66667vw;
+  width: 55.73333vw;
+}
+
+main .app-background {
+  background-color: #191826;
+  background-image: url("../assets/bg-pattern-2.svg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+  height: 37.5rem;
+  margin-top: -18.75rem;
+  position: relative;
+  width: 100vw;
+  z-index: -5;
+}
+
+main .cta {
+  background-color: #fa7352;
+  border-radius: 12px;
+  margin-top: -12.5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+main .cta h2 {
+  margin: 0 6.4vw;
+}
+
+main .cta .main-para {
+  margin-top: 0.625rem;
+  margin: 0 6.4vw;
+}
+
+main .cta .price {
+  display: flex;
+  color: #fcf9f8;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+main .cta .price .big {
+  font-size: 4.0625rem;
+  font-weight: 700;
+  line-height: 3.25rem;
+  margin-right: 1.0625rem;
+}
+
+main .cta .btn-cont {
+  width: 100vw;
+}
+
+main .cta .btn-cont .button {
+  margin: auto;
+  margin-bottom: 1rem;
 }
 /*# sourceMappingURL=main.css.map */

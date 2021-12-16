@@ -4,21 +4,9 @@
 @import "base/reset.scss";
 @import "base/typography";
 
+@import 'components/buttons';
 
-body {
-    padding: sml-vw(48) sml-vw(24) sml-vw(80) sml-vw(24); 
-    background-image: url('../assets/bg-main-mobile.png');
-    background-position: sml-vw(40) sml-vw(-220);
-    background-repeat: no-repeat;
-}
+@import 'layouts/body';
+@import 'layouts/header';
 
-header {
-    
-    h1 {
-        margin-top: rem(70.61);
-    }
-
-    p {
-        margin-top: rem(16);
-    }
-}
+@import 'pages/home';
