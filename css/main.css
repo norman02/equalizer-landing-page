@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap");
-header, footer, main .cta h2, main .cta .main-para, main .cta .price {
+footer, main .cta h2, main .cta .main-para, main .cta .price {
   margin: 0 6.4vw;
 }
 
@@ -154,15 +154,34 @@ body::after {
 }
 
 header {
+  margin: 0 6.4vw;
   margin-top: 12.8vw;
+}
+
+@media screen and (min-width: 500px) {
+  header {
+    margin: 6.38021vw 27.99479vw 0 5.07812vw;
+  }
 }
 
 header h1 {
   margin-top: 4.41312rem;
 }
 
+@media screen and (min-width: 500px) {
+  header h1 {
+    margin-top: 6.3525rem;
+  }
+}
+
 header p {
   margin-top: 1rem;
+}
+
+@media screen and (min-width: 500px) {
+  header p {
+    margin-top: 0.5rem;
+  }
 }
 
 footer {
