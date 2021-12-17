@@ -3,7 +3,12 @@
     @return ($pix/16) + rem;
 }
 
-// convert pixel to view width ratio
+// convert pixel to view width ratio for small screens
 @function sml-vw($pix) {
     @return ($pix/375 * 100) + vw;
+}
+
+// convert pixel to view width ratio for medium screens
+@function md-vw($pix) {
+    @return ($pix/768 * 100) + vw;
 }

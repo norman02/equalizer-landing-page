@@ -97,6 +97,14 @@ body {
   background-repeat: no-repeat;
 }
 
+@media screen and (min-width: 500px) {
+  body {
+    background-image: url("../assets/bg-main-tablet.png");
+    background-position-x: -52.08333vw;
+    background-position-y: -52.08333vw;
+  }
+}
+
 header {
   margin-top: 12.8vw;
 }

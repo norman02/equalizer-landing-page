@@ -3,4 +3,10 @@ body {
     background-color: $body-bg-color;
     background-position: sml-vw(40) sml-vw(-220);
     background-repeat: no-repeat; 
+
+    @include media-md {
+        background-image: url('../assets/bg-main-tablet.png');
+        background-position-x: md-vw(-400);
+        background-position-y: md-vw(-400);
+    }
 }
