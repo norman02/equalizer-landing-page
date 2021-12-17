@@ -210,6 +210,12 @@ main {
   margin-top: 4.625rem;
 }
 
+@media screen and (min-width: 500px) {
+  main {
+    margin-top: 7.25rem;
+  }
+}
+
 main .app-graphic {
   background-image: url("../assets/illustration-app.png");
   background-size: contain;
@@ -217,6 +223,14 @@ main .app-graphic {
   margin: auto;
   height: 114.66667vw;
   width: 55.73333vw;
+}
+
+@media screen and (min-width: 500px) {
+  main .app-graphic {
+    height: 72.39583vw;
+    margin: 0 6.0625rem;
+    width: 35.15625vw;
+  }
 }
 
 main .app-background {
@@ -232,12 +246,28 @@ main .app-background {
   z-index: -5;
 }
 
+@media screen and (min-width: 500px) {
+  main .app-background {
+    width: auto;
+    margin: 0 4.29688vw;
+    margin-top: -25rem;
+  }
+}
+
 main .cta {
   background-color: #fa7352;
   border-radius: 12px;
   margin-top: -12.5rem;
   padding-top: 3rem;
   padding-bottom: 3rem;
+}
+
+@media screen and (min-width: 500px) {
+  main .cta {
+    width: 51.95312vw;
+    margin-left: 35.41667vw;
+    margin-top: -25rem;
+  }
 }
 
 main .cta .main-para {
@@ -259,7 +289,7 @@ main .cta .price .big {
 }
 
 main .cta .btn-cont {
-  width: 100vw;
+  width: auto;
 }
 
 main .cta .btn-cont .button {

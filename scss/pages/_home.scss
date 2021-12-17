@@ -2,6 +2,10 @@ main {
 
     margin-top: rem(74);
 
+    @include media-md {
+        margin-top: rem(116);
+    }
+
     .app-graphic {
         background-image: url('../assets/illustration-app.png');
         background-size: contain;
@@ -9,6 +13,12 @@ main {
         margin: auto;
         height: sml-vw(430);
         width: sml-vw(209);
+
+        @include media-md {
+            height: md-vw(556);
+            margin: 0 rem(97);
+            width: md-vw(270);
+        }
     }
 
     .app-background {
@@ -22,6 +32,12 @@ main {
         position: relative;
         width: 100vw;
         z-index: -5;
+
+        @include media-md {
+            width: auto;
+            margin: 0 md-vw(33);
+            margin-top: rem(-400);
+        }
     }
 
     .cta {
@@ -30,6 +46,12 @@ main {
         margin-top: rem(-200);
         padding-top: rem(48);
         padding-bottom: rem(48);
+
+        @include media-md {
+            width: md-vw(399);
+            margin-left: md-vw(272);
+            margin-top: rem(-400)
+        }
 
 
         h2 {
@@ -57,7 +79,7 @@ main {
         }
 
         .btn-cont {
-            width: 100vw;
+            width: auto;
 
             .button {
                 margin: auto;
