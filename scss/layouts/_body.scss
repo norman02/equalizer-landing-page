@@ -1,18 +1,10 @@
 body {
-    background-image: url('../assets/bg-main-mobile.png');
-    background-color: $body-bg-color;
-    background-position: sml-vw(40) sml-vw(-220);
-    background-repeat: no-repeat; 
 
-    @include media-md {
-        background-image: url('../assets/bg-main-tablet.png');
-        background-position-x: md-vw(-400);
-        background-position-y: md-vw(-400);
-    }
+    background-color: $body-bg-color;
 
     &::before {
         content: "";
-        background-image: url('../../assets/bg-pattern-1.svg');
+        background-image: url('../assets/bg-pattern-1.svg');
         background-size: contain;
         background-repeat: no-repeat;
         display: none;
@@ -28,6 +20,27 @@ body {
         }
     }
 
-    
+    &::after {
+        content: "";
+        background-image: url('../assets/bg-main-mobile.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+        height: sml-vw(700);
+        position: absolute;
+        right: 0;
+        top: sml-vw(-200);
+        width: sml-vw(300);
+        z-index: -10;
+
+        @include media-md {
+            background-image: url('../assets/bg-main-tablet.png');
+            height: md-vw(808);
+            right: md-vw(50);
+            top: md-vw(-200);
+            width: md-vw(868);
+        }
+    }
+   
 }
 

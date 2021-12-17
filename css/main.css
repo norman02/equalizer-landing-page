@@ -106,23 +106,12 @@ p {
 }
 
 body {
-  background-image: url("../assets/bg-main-mobile.png");
   background-color: #fcf9f8;
-  background-position: 10.66667vw -58.66667vw;
-  background-repeat: no-repeat;
-}
-
-@media screen and (min-width: 500px) {
-  body {
-    background-image: url("../assets/bg-main-tablet.png");
-    background-position-x: -52.08333vw;
-    background-position-y: -52.08333vw;
-  }
 }
 
 body::before {
   content: "";
-  background-image: url("../../assets/bg-pattern-1.svg");
+  background-image: url("../assets/bg-pattern-1.svg");
   background-size: contain;
   background-repeat: no-repeat;
   display: none;
@@ -137,6 +126,30 @@ body::before {
 @media screen and (min-width: 500px) {
   body::before {
     display: block;
+  }
+}
+
+body::after {
+  content: "";
+  background-image: url("../assets/bg-main-mobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  height: 186.66667vw;
+  position: absolute;
+  right: 0;
+  top: -53.33333vw;
+  width: 80vw;
+  z-index: -10;
+}
+
+@media screen and (min-width: 500px) {
+  body::after {
+    background-image: url("../assets/bg-main-tablet.png");
+    height: 105.20833vw;
+    right: 6.51042vw;
+    top: -26.04167vw;
+    width: 113.02083vw;
   }
 }
 
