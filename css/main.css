@@ -120,6 +120,26 @@ body {
   }
 }
 
+body::before {
+  content: "";
+  background-image: url("../../assets/bg-pattern-1.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 23rem;
+  width: 14.4375rem;
+  z-index: -5;
+}
+
+@media screen and (min-width: 500px) {
+  body::before {
+    display: block;
+  }
+}
+
 header {
   margin-top: 12.8vw;
 }

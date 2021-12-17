@@ -9,4 +9,25 @@ body {
         background-position-x: md-vw(-400);
         background-position-y: md-vw(-400);
     }
+
+    &::before {
+        content: "";
+        background-image: url('../../assets/bg-pattern-1.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: rem(368);
+        width: rem(231);
+        z-index: -5;
+
+        @include media-md {
+            display: block;
+        }
+    }
+
+    
 }
+
