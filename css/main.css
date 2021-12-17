@@ -42,6 +42,14 @@ h1 {
   line-height: 3rem;
 }
 
+@media screen and (min-width: 500px) {
+  h1 {
+    font-size: 4rem;
+    letter-spacing: -0.04562rem;
+    line-height: 4rem;
+  }
+}
+
 h2 {
   color: #fcf9f8;
   font-size: 2rem;
@@ -51,6 +59,13 @@ h2 {
 p {
   font-size: 1rem;
   line-height: 1.625rem;
+}
+
+@media screen and (min-width: 500px) {
+  p {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
 }
 
 .main-para {

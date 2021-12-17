@@ -17,6 +17,12 @@ h1 {
     
     letter-spacing: rem(-0.45);
     line-height: rem(48);
+
+    @include media-md {
+        font-size: rem(64);
+        letter-spacing: rem(-0.73);
+        line-height: rem(64);
+    }
 }
 
 h2 {
@@ -28,6 +34,11 @@ h2 {
 p {
     font-size: rem(16);
     line-height: rem(26);
+
+    @include media-md {
+        font-size: rem(18);
+        line-height: rem(28);
+    }
 }
 
 .main-para {
