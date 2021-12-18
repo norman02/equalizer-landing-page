@@ -189,6 +189,19 @@ footer {
   padding-bottom: 5rem;
 }
 
+@media screen and (min-width: 500px) {
+  footer {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5.9375rem;
+    padding-bottom: 5.6875rem;
+  }
+  footer .wrapper {
+    max-width: 47.65625vw;
+  }
+}
+
 footer .logo {
   margin-bottom: 2.4375rem;
 }
@@ -199,6 +212,12 @@ footer .email {
 
 footer ul {
   margin-top: 4.375rem;
+}
+
+@media screen and (min-width: 500px) {
+  footer ul {
+    margin-top: 0;
+  }
 }
 
 footer ul li {
@@ -266,7 +285,7 @@ main .cta {
   main .cta {
     width: 51.95312vw;
     margin-left: 35.41667vw;
-    margin-top: -25rem;
+    margin-top: -26.5625rem;
   }
 }
 
