@@ -18,6 +18,11 @@ body {
         @include media-md {
             display: block;
         }
+
+        @include media-lg {
+            height: rem(468);
+            width: rem(312);
+        }
     }
 
     &::after {
@@ -40,6 +45,7 @@ body {
             top: md-vw(-200);
             width: md-vw(868);
         }
+
     }
    
 }
