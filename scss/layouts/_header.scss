@@ -6,12 +6,21 @@ header {
     @include media-md {
         margin: md-vw(49) md-vw(215) 0 md-vw(39);
     }
+
+    @include media-lg {
+        margin: lg-vw(69.69) lg-vw(260) lg-vw(165) lg-vw(115);
+    }
   
     h1 {
         margin-top: rem(70.61);
 
         @include media-md {
             margin-top: rem(101.64);
+        }
+
+        @include media-lg {
+            margin-top: rem(134);
+            max-width: lg-vw(1015);
         }
         
     }
@@ -21,6 +30,11 @@ header {
 
         @include media-md {
             margin-top: rem(8);
+        }
+
+        @include media-lg {
+            margin-top: rem(14);
+            max-width: lg-vw(825);
         }
     }
 }

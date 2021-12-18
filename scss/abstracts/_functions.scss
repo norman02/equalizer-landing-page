@@ -12,3 +12,8 @@
 @function md-vw($pix) {
     @return ($pix/768 * 100) + vw;
 }
+
+// convert pixel to view width ratio for large screens
+@function lg-vw($pix) {
+    @return ($pix/1440 * 100) + vw;
+}
