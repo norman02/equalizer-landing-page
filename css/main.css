@@ -202,7 +202,8 @@ header {
 
 @media screen and (min-width: 1000px) {
   header {
-    margin: 4.83958vw 18.05556vw 11.45833vw 7.98611vw;
+    margin: 0 11.45833vw;
+    margin-top: 4.35562rem;
   }
 }
 
@@ -291,6 +292,12 @@ main {
   }
 }
 
+@media screen and (min-width: 1000px) {
+  main {
+    margin-top: 8.375rem;
+  }
+}
+
 main .app-graphic {
   background-image: url("../assets/illustration-app.png");
   background-size: contain;
@@ -305,6 +312,14 @@ main .app-graphic {
     height: 72.39583vw;
     margin: 0 6.0625rem;
     width: 35.15625vw;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  main .app-graphic {
+    height: 44.58333vw;
+    margin: 0 21.875rem;
+    width: 21.66667vw;
   }
 }
 
@@ -329,6 +344,13 @@ main .app-background {
   }
 }
 
+@media screen and (min-width: 1000px) {
+  main .app-background {
+    margin: 0 11.45833vw;
+    margin-top: -29.375rem;
+  }
+}
+
 main .cta {
   background-color: #fa7352;
   border-radius: 12px;
@@ -345,8 +367,30 @@ main .cta {
   }
 }
 
+@media screen and (min-width: 1000px) {
+  main .cta {
+    width: 30.83333vw;
+    padding-top: 3.625rem;
+    margin-left: 54.16667vw;
+    margin-top: -30rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  main .cta h2 {
+    margin: 0 3.375rem;
+  }
+}
+
 main .cta .main-para {
   margin-top: 0.625rem;
+}
+
+@media screen and (min-width: 1000px) {
+  main .cta .main-para {
+    margin: 0 3.375rem;
+    margin-top: 1.375rem;
+  }
 }
 
 main .cta .price {
@@ -354,6 +398,14 @@ main .cta .price {
   color: #fcf9f8;
   margin-top: 1.5rem;
   margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 1000px) {
+  main .cta .price {
+    margin: 0 3.375rem;
+    margin-top: 1.8125rem;
+    margin-bottom: 1.875rem;
+  }
 }
 
 main .cta .price .big {

@@ -7,7 +7,8 @@ header {
     }
 
     @include media-lg {
-        margin: lg-vw(69.69) lg-vw(260) lg-vw(165) lg-vw(115);
+        margin: 0 lg-vw(165);
+        margin-top: rem(69.69);
     }
   
     h1 {

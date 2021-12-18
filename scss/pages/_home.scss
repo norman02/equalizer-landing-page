@@ -6,6 +6,10 @@ main {
         margin-top: rem(116);
     }
 
+    @include media-lg{
+        margin-top: rem(134);
+    }
+
     .app-graphic {
         background-image: url('../assets/illustration-app.png');
         background-size: contain;
@@ -18,6 +22,12 @@ main {
             height: md-vw(556);
             margin: 0 rem(97);
             width: md-vw(270);
+        }
+
+        @include media-lg {
+            height: lg-vw(642);
+            margin: 0 rem(350);
+            width: lg-vw(312);
         }
     }
 
@@ -38,6 +48,11 @@ main {
             margin: 0 md-vw(33);
             margin-top: rem(-400);
         }
+
+        @include media-lg {
+            margin: 0 lg-vw(165);
+            margin-top: rem(-470);
+        }
     }
 
     .cta {
@@ -53,14 +68,30 @@ main {
             margin-top: rem(-425)
         }
 
+        @include media-lg {
+            width: lg-vw(444);
+            padding-top: rem(58);
+            margin-left: lg-vw(780);
+            margin-top: rem(-480);
+        }
+
 
         h2 {
             @extend %small-margin;
+
+            @include media-lg {
+                margin: 0 rem(54)
+            }
         }
 
         .main-para {
             @extend %small-margin;
             margin-top: rem(10);  
+
+            @include media-lg {
+                margin: 0 rem(54);
+                margin-top: rem(22)
+            }
         }
 
         .price {
@@ -69,6 +100,12 @@ main {
             color: $secondary-txt-color;
             margin-top: rem(24);
             margin-bottom: rem(16);
+
+            @include media-lg {
+                margin: 0 rem(54);
+                margin-top: rem(29);
+                margin-bottom: rem(30);
+            }
 
             .big {
                 font-size: rem(65);
