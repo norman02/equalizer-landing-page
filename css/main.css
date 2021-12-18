@@ -42,7 +42,7 @@ h1 {
   line-height: 3rem;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 650px) {
   h1 {
     font-size: 4rem;
     letter-spacing: -0.04562rem;
@@ -50,7 +50,7 @@ h1 {
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1250px) {
   h1 {
     font-size: 5.5rem;
     letter-spacing: -0.0625rem;
@@ -64,7 +64,7 @@ h2 {
   line-height: 2.5rem;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1250px) {
   h2 {
     font-size: 2.5rem;
     line-height: 3.25rem;
@@ -76,14 +76,14 @@ p {
   line-height: 1.625rem;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 650px) {
   p {
     font-size: 1.125rem;
     line-height: 1.75rem;
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1250px) {
   p {
     font-size: 1.25rem;
     line-height: 2.125rem;
@@ -96,7 +96,7 @@ p {
   line-height: 1.75rem;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1250px) {
   .main-para {
     font-size: 1.25rem;
     line-height: 2.125rem;
@@ -152,13 +152,13 @@ body::before {
   z-index: -5;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 650px) {
   body::before {
     display: block;
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1250px) {
   body::before {
     height: 29.25rem;
     width: 19.5rem;
@@ -179,7 +179,7 @@ body::after {
   z-index: -10;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 650px) {
   body::after {
     background-image: url("../assets/bg-main-tablet.png");
     height: 105.20833vw;
@@ -194,13 +194,13 @@ header {
   margin-top: 12.8vw;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 650px) {
   header {
     margin: 6.38021vw 27.99479vw 0 5.07812vw;
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1250px) {
   header {
     margin: 0 11.45833vw;
     margin-top: 4.35562rem;
@@ -211,13 +211,13 @@ header h1 {
   margin-top: 4.41312rem;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 650px) {
   header h1 {
     margin-top: 6.3525rem;
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1250px) {
   header h1 {
     margin-top: 8.375rem;
     max-width: 70.48611vw;
@@ -228,13 +228,13 @@ header p {
   margin-top: 1rem;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 650px) {
   header p {
     margin-top: 0.5rem;
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1250px) {
   header p {
     margin-top: 0.875rem;
     max-width: 57.29167vw;
@@ -246,7 +246,7 @@ footer {
   padding-bottom: 5rem;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 650px) {
   footer {
     align-items: center;
     display: flex;
@@ -271,7 +271,7 @@ footer ul {
   margin-top: 4.375rem;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 650px) {
   footer ul {
     margin-top: 0;
   }
@@ -286,13 +286,13 @@ main {
   margin-top: 4.625rem;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 650px) {
   main {
     margin-top: 7.25rem;
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1250px) {
   main {
     margin-top: 8.375rem;
   }
@@ -307,7 +307,7 @@ main .app-graphic {
   width: 55.73333vw;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 650px) {
   main .app-graphic {
     height: 72.39583vw;
     margin: 0 6.0625rem;
@@ -315,7 +315,7 @@ main .app-graphic {
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1250px) {
   main .app-graphic {
     height: 44.58333vw;
     margin: 0 21.875rem;
@@ -336,7 +336,7 @@ main .app-background {
   z-index: -5;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 650px) {
   main .app-background {
     width: auto;
     margin: 0 4.29688vw;
@@ -344,7 +344,13 @@ main .app-background {
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 900px) {
+  main .app-background {
+    margin-top: -40rem;
+  }
+}
+
+@media screen and (min-width: 1250px) {
   main .app-background {
     margin: 0 11.45833vw;
     margin-top: -29.375rem;
@@ -359,7 +365,7 @@ main .cta {
   padding-bottom: 3rem;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 650px) {
   main .cta {
     width: 51.95312vw;
     margin-left: 35.41667vw;
@@ -367,7 +373,7 @@ main .cta {
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1250px) {
   main .cta {
     width: 30.83333vw;
     padding-top: 3.625rem;
@@ -376,7 +382,7 @@ main .cta {
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1250px) {
   main .cta h2 {
     margin: 0 3.375rem;
   }
@@ -386,7 +392,7 @@ main .cta .main-para {
   margin-top: 0.625rem;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1250px) {
   main .cta .main-para {
     margin: 0 3.375rem;
     margin-top: 1.375rem;
@@ -400,7 +406,7 @@ main .cta .price {
   margin-bottom: 1rem;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1250px) {
   main .cta .price {
     margin: 0 3.375rem;
     margin-top: 1.8125rem;
