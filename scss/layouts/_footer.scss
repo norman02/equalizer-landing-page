@@ -10,13 +10,36 @@ footer {
         margin-top: rem(95);
         padding-bottom: rem(91);
 
-        .wrapper {
+        
+    }
+
+    @include media-lg {
+        margin: 0 lg-vw(165);
+        margin-top: rem(87);
+    }
+
+    .wrapper {
+        
+
+        @include media-md {
             max-width: md-vw(366);
+        }
+
+        @include media-lg {
+            align-items: flex-start;
+            display: flex;
+            justify-content: space-between;
+            max-width: lg-vw(650);
         }
     }
 
     .logo {
         margin-bottom: rem(39);
+
+        @include media-lg {
+            margin: 0;
+            margin-right: lg-vw(139);
+        }
     }
 
     .email {

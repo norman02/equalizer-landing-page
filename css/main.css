@@ -254,13 +254,39 @@ footer {
     margin-top: 5.9375rem;
     padding-bottom: 5.6875rem;
   }
+}
+
+@media screen and (min-width: 1250px) {
+  footer {
+    margin: 0 11.45833vw;
+    margin-top: 5.4375rem;
+  }
+}
+
+@media screen and (min-width: 650px) {
   footer .wrapper {
     max-width: 47.65625vw;
   }
 }
 
+@media screen and (min-width: 1250px) {
+  footer .wrapper {
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    max-width: 45.13889vw;
+  }
+}
+
 footer .logo {
   margin-bottom: 2.4375rem;
+}
+
+@media screen and (min-width: 1250px) {
+  footer .logo {
+    margin: 0;
+    margin-right: 9.65278vw;
+  }
 }
 
 footer .email {
