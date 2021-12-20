@@ -1,5 +1,5 @@
 .button {
-
+    @extend %transition-ease;
     border-radius: 12px;
     display: block;
     font-weight: 700;
@@ -18,15 +18,24 @@
         margin-right: rem(8.42);
         top: rem(10);
     }
+
   
 }
 
 .ios {
     background-color: $drk-btn-color;
     color: $secondary-txt-color;
+
+    &:hover {
+        background-color: $drk-btn-hover;
+    }
 }
 
 .android {
     background-color: $lt-btn-color;
     color: $primary-txt-color;
+
+    &:hover {
+        background-color: $lt-btn-hover;
+    }
 }

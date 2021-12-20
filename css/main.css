@@ -3,6 +3,10 @@ footer, main .cta h2, main .cta .main-para, main .cta .price {
   margin: 0 6.4vw;
 }
 
+.button {
+  transition: 0.8s;
+}
+
 * {
   border: 0;
   font-size: 100%;
@@ -129,9 +133,17 @@ p {
   color: #fcf9f8;
 }
 
+.ios:hover {
+  background-color: #42fff6;
+}
+
 .android {
   background-color: #fcf9f8;
   color: #191826;
+}
+
+.android:hover {
+  background-color: #ffba66;
 }
 
 body {
